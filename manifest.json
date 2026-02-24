@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Shallow Clone Button",
+  "version": "1.0.0",
+  "description": "Add a button on GitHub repository pages to copy a shallow clone command.",
+  "permissions": ["clipboardWrite"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
