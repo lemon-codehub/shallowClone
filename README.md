@@ -1,5 +1,7 @@
 # GitHub Shallow Clone Button
 
+[中文文档](./README.zh-CN.md)
+
 A lightweight Chrome extension that adds a **Shallow clone** button next to GitHub's **Code** button.
 
 Click once to copy:
